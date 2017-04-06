@@ -8,8 +8,8 @@ Steganograhpy is the study of hiding data within data. Steganography can be used
 
 ##Architecture:
 The program uses 2 main functions/methods: 
-* retr() to retreive text
-* hide() to encode text
+* retrieve_output() to retreive text
+* hide_input() to encode text
 
 Helper functions are used to process requests:
 * check_format() to veify correct img files or convert to jpg
@@ -33,4 +33,4 @@ or use the source.txt to enter the text
 
 Decode an image:
 
-python textInImage.py -d fileToDecode.png -i fileToDecode.png
+python textInImage.py -d fileToDecode.png -o fileToDecode.png
