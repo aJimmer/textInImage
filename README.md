@@ -1,12 +1,12 @@
-#Text In Image
+# Text In Image
 Author: Angel Jimenez
 Class: CPSC-353
 Professor: Reza
 
-###Description: 
+### Description: 
 Steganograhpy is the study of hiding data within data. Steganography can be used to exchange hidden messages which is what the implementation of this program does. 
 
-##Architecture:
+## Architecture:
 The program uses 2 main functions/methods: 
 * retrieve_output() to retreive text
 * hide_input() to encode text
@@ -22,7 +22,7 @@ Encode/decode are used to manipulate least significant bits in image pixels:
 * encode()
 * decode()
 
-##Execute:
+## Execute:
 
 Encode an image:
 `python textInImage.py -e 'message to encode' -i fileToOpen.jpg`
@@ -33,4 +33,4 @@ or use the source.txt to enter the text
 
 Decode an image:
 
-python textInImage.py -d fileToDecode.png -o fileToDecode.png
+`python textInImage.py -d fileToDecode.png -o fileToDecode.png`
